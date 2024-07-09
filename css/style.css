@@ -215,13 +215,13 @@ img.img-fluid {
   transform: translate(50%, -50%);
 }
 .circle-github {
-  top: 70%;
-  left: 30%;
+  top: 75%;
+  left: 20%;
   transform: translate(-50%, -50%);
 }
 .circle-behance {
   top: 75%;
-  left: 70%;
+  left: 75%;
   transform: translate(-50%, -50%);
 }
 .circle-upwork {
