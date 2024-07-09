@@ -209,6 +209,26 @@ img.img-fluid {
   max-width: 60%;
   max-height: 60%;
 }
+.circle-linkedin {
+  top: 12%;
+  left: 18%;
+  transform: translate(50%, -50%);
+}
+.circle-github {
+  top: 70%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+}
+.circle-behance {
+  top: 75%;
+  left: 70%;
+  transform: translate(-50%, -50%);
+}
+.circle-upwork {
+  top: 15%;
+  left: 70%;
+  transform: translate(-50%, -50%);
+}
 
 /* 4. Work platform css end here */
 
