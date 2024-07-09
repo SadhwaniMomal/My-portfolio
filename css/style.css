@@ -1,0 +1,281 @@
+/* Import Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Wittgenstein:ital,wght@0,400..900;1,400..900&display=swap");
+
+/* Reset styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  background-color: #f8f9fa;
+}
+
+.top-bar {
+  background-color: #343a40;
+  color: white;
+  padding: 10px 0;
+}
+
+.top-bar span {
+  font-size: 14px;
+}
+
+.social-icons a {
+  color: white;
+  margin: 0 10px;
+  transition: color 0.3s;
+}
+
+.social-icons a:hover {
+  color: #fc466b;
+}
+
+/* Navbar CSS */
+.my-navbar .my-navbar-brand {
+  color: white;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba%28255, 255, 255, 1%29' stroke-width='2' linecap='round' linejoin='round' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+.nav-link.active {
+  color: #fc466b !important;
+}
+
+.nav-link {
+  font-size: 16px;
+  transition: color 0.3s;
+}
+
+.nav-link:hover {
+  color: #3f5efb !important;
+}
+
+.btn-custom {
+  padding: 10px 20px;
+  border: 2px solid rgb(168, 165, 165);
+  border-radius: 5px;
+  /* background: linear-gradient(90deg, #fff 2%, #fff 100%); */
+  background-color: white !important;
+  color: black !important;
+  font-size: 16px;
+  transition: background 0.3s;
+  box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset,
+    rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+}
+
+.btn-custom:hover {
+  background: linear-gradient(90deg, #fc466b 2%, #fff 100%);
+}
+
+/* 1. Banner CSS */
+.banner-container {
+  margin-top: 50px;
+  padding: 50px 0;
+  background-color: rgba(249, 240, 224, 0.542) !important;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+.banner-text h1 {
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  background: -webkit-linear-gradient(rgb(188, 12, 241), rgb(212, 4, 4));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.banner-text p {
+  font-size: 18px;
+  margin-bottom: 30px;
+  color: #6c757d;
+}
+
+.featured-text-btn .btn-custom {
+  background-color: #3f5efb;
+  color: white;
+  margin-right: 10px;
+  transition: background-color 0.3s;
+}
+
+.featured-text-btn .blue-btn:hover {
+  background-color: #fc466b;
+}
+
+.featured-text-btn .btn-outline-secondary {
+  border: 2px solid #3f5efb;
+  color: #3f5efb;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.featured-text-btn .btn-outline-secondary:hover {
+  background-color: #3f5efb;
+  color: white;
+}
+
+.social-icons a {
+  font-size: 24px;
+  color: #ffffff;
+  margin-right: 15px;
+  transition: color 0.3s;
+}
+
+.social-icons a:hover {
+  color: #ffffff;
+}
+
+img.img-fluid {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+/* 2. Tag bar CSS */
+.tag-bar {
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  background: linear-gradient(90deg, #d5cdc8, #ee0979);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 25px;
+}
+
+.tag {
+  color: #fff;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+}
+
+.tag::before {
+  content: "✦";
+  margin-right: 8px;
+}
+
+/* 3. ABOUT CSS START HERE */
+.languages .btn-lang {
+  text-decoration: none;
+  margin: 5px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: 1px solid #ffffff;
+  background-color: #ffffff;
+  color: #ee0979;
+  /* box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px; */
+  transition: background-color 0.3s, color 0.3s;
+  font-size: medium;
+  font-weight: 600 !important;
+  box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset,
+    rgba(204, 219, 232, 0.5) -3px -3px 6px 1px inset;
+}
+
+.languages .btn-lang:hover {
+  background-color: #ee0979;
+  color: #ffffff;
+}
+
+/* 3. ABOUT CSS END HERE */
+
+/* 4. Work platform css start here */
+.workplace {
+  background-color: white !important;
+  border-radius: 15px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.circle {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 10px;
+}
+.main-circle {
+  width: 150px;
+  height: 150px;
+}
+.circle img {
+  max-width: 60%;
+  max-height: 60%;
+}
+
+/* 4. Work platform css end here */
+
+/* 5. skill css start here */
+.skill {
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+}
+.skill-icon {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+.progress {
+  flex-grow: 1;
+  height: 20px;
+  margin-left: 10px;
+}
+/* Custom progress bar colors */
+.progress-bar-html {
+  background-color: #61dafb; /* Light blue */
+}
+.progress-bar-css {
+  background-color: #2965f1; /* Blue */
+}
+.progress-bar-bootstrap {
+  background-color: #563d7c; /* Purple */
+}
+.progress-bar-js {
+  background-color: #f0db4f; /* Yellow */
+}
+.progress-bar-jquery {
+  background-color: #0769ad; /* Dark blue */
+}
+.progress-bar-php {
+  background-color: #8892bf; /* Dark gray-blue */
+}
+.progress-bar-laravel {
+  background-color: #ff2d20; /* Red */
+}
+.progress-bar-mysqli {
+  background-color: orange; /* Red */
+}
+/* 5. skill css end here */
+
+/*6. Project start here */
+.project-row {
+  display: none;
+}
+/*6. Project end here */
+
+/* Footer css start her */
+.footer {
+  padding: 20px 0;
+}
+.footer .row {
+  align-items: center;
+}
+
+.footer .social-contact {
+  padding: 10px 20px;
+  text-align: center;
+  background-color: white;
+  border: 1px solid white;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px,
+    rgba(0, 0, 0, 0.05) 0px 5px 10px;
+}
+/* Footer css end her */
